@@ -1,0 +1,368 @@
+.wrapper{
+	width: 100%;
+	overflow-x: hidden;
+	color: #8A8A8A;
+}
+.wrapper .header{
+    width: 100%;
+    min-height: 40px;
+    background: #222;
+    padding: 0.7%;
+    color: #8A8A8A;
+}
+
+.wrapper .header .header_content{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper .header .header_content .header_yellow{
+    color: #F8C212;
+
+}
+
+.wrapper .header .header_content .header_button {
+    background: #F8C212;
+    border: 0;
+    border-radius: 25px;
+    padding: 5px 20px;
+    float: right;
+}
+
+.wrapper .header .header_content .header_login{
+    padding-top: 1px!important;
+}
+
+.wrapper .header .header_content li{
+    display: inline;
+}
+
+.wrapper .header .header_content .header_left{
+    float: left;
+    padding: 0 5%;
+    
+}
+
+
+.wrapper .header .header_content .header_right button{ 
+    float: right;
+	padding: 0 1%;
+	width: 10%;
+	height: 20px;
+	margin: 10px 20px 0px 0px;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background: inherit;
+}
+
+.nav .logo{
+    width: 30%;
+    float: left;
+    height: 100%;
+
+}
+
+.nav .logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nav .nav_bar{
+    width: 70%;
+    float: right;
+    height: 100%;
+}
+
+.nav .nav_bar .mobile-button{
+    display: none;
+}
+
+.nav .nav_bar .navbar{
+    width: 100%;
+    height: 100%;
+
+}
+
+.nav .nav_bar .navbar li{
+    display: inline;
+    margin: 0% 2%;
+}
+
+.nav .nav_bar .navbar li a{
+    text-decoration: none;
+    color: #8a8a8a;
+}
+
+.nav .nav_bar .navbar li a:hover{
+    color: #F8C212;
+}
+.wrapper .slider{
+	background-color: grey;
+	width: 100%;
+	height: 500px;
+	display: block;
+	position: relative;
+}
+.wrapper .slider .slider_text{
+display: block;
+position: absolute;
+top: 29%;
+left: 26%;
+color: white;
+font-size: 30px;
+}
+.wrapper .slider .slider_text h1{
+text-transform: capitalize;
+word-spacing: 30px;
+text-align: center;
+}
+.wrapper .learn_more{
+	width: 100%;
+	height: 60px;
+	background-color: yellow;
+}
+.wrapper .learn_more button{
+  	border-radius: 20px;
+    width: 120px;
+	text-align: center;
+	color: azure;
+    background: black;
+    border: 0px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: dolphin;
+	float: right;
+	margin-right: 290px;
+	margin-top: 10px;
+}
+.wrapper .learn_more .lm_left{
+	 color: black;
+	font-size: 25px;
+	display: block;
+	float: left;
+	font-weight: bolder;
+	margin: 16px 0px 0px 230px;
+}
+.wrapper .about{
+	 width: 80%;
+	 margin: auto;
+	 position: relative;
+}
+.wrapper .about div{
+	 display: inline-block;
+	 width:33%;
+	 height: 300px;
+}
+.wrapper .about h3{
+	 text-align: center;
+	 font-weight: bolder;
+	 font-size: 24px;
+	 text-transform: capitalize;
+}
+.wrapper .about p {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.wrapper .about img {
+width: 20%;
+margin: 30px 142px;
+}
+.wrapper .upcomming {
+	width: 100%;
+	height: 60px;
+    display: block;
+    background: black;
+    color: white;
+	text-transform: capitalize;
+}
+.wrapper .upcomming h1{
+    width: 25%;
+    display:inline;
+	margin: 9px 0px 0px 160px;
+}
+.wrapper .upcomming h1 hr{
+width: 2%;
+display: inline-block;
+margin: 5px;
+}
+.upcomming button {
+    font-size: 20px;
+    margin: 0px -13px 0px 20px;
+    border: 0px;
+    height: 24px;
+    display: inline-block;
+    background: yellow;
+    color: black;
+}
+.wrapper .about1{
+	width: 80%;
+	margin: auto;
+	position: relative;
+}
+.wrapper .about1 div{
+	display: inline-block;
+	width:33%;
+	height: 350px;
+}
+.wrapper .about1 h4{
+	text-align: center;
+	font-weight: bolder;
+	text-transform: capitalize;
+	margin: 0px;
+}
+.wrapper .about1 p {
+   text-align: center;
+   width: 90%;
+   margin: auto;
+}
+.wrapper .about1 img {
+width: 20%;
+margin: 30px 142px;
+}
+.wrapper .about1 .dt {
+    color: white;
+    height: 25px;
+    font-size: 15px;
+    word-spacing: 0.1em;
+    width: 75%;
+    margin: auto;
+    display: block;
+    background: #333333;
+    text-align: center;
+}
+.wrapper .subscribe {
+    background: #d0bb25e6;
+	width: 25%;
+	height: 230px;
+    text-align: center;
+    padding: 20px;
+}
+.wrapper .subscribe h1{
+	margin: 20px 0px 11px 0px;
+}
+.wrapper .subscribe p {
+    margin: 0px;
+    width: 55%;
+    margin: auto;
+}input
+.wrapper .subscribe input[type="text"] {
+    width: 52%;
+    display: block;
+    margin: 7px 78px;
+    border: 1px;
+    border-radius: 30px;
+	height: 24px;
+	padding:3px;
+}
+.wrapper .subscribe button {
+    border: 0px;
+    height: 28px;
+    width: 52%;
+    border-radius: 40px;
+    background: black;
+    color: #daca5c;
+}
+.wrapper .testimonials{
+	width: 100%;
+	height: 210px;
+	text-align: center;
+	margin: auto;
+	display: block;
+	background-color: #e7edf3;
+	padding-top: 20px;
+}
+.wrapper .testimonials h3{
+	margin: 0px;
+}
+.wrapper .contact{
+	text-align: center;
+	width: 100%;
+	height:250px;
+	margin: auto;
+	display: block;
+	
+    background: #e7edf3;
+}
+.wrapper .contact .c1 {
+    width: 100%;
+    display: block;
+    height: 56px;
+	margin: auto;   
+	margin: auto;
+}
+.wrapper .contact .c1 input[type="text"] {
+    width: 160px;
+    margin: 10px;
+    height: 20px;
+    border: 0px;
+    border-radius: 2px;
+    padding: 8px;
+}
+.wrapper .contact h1{
+		margin: 0px;
+	}
+
+.wrapper .contact .c1 input[type="submit"] {
+    width: 100px;
+    height: 37px;
+    border-radius: 6px;
+    border: 0px;
+    font-size: 14px;
+    background: #e6e61f;
+    color: #754747;
+}
+.wrapper .contact input[type="text"] {
+    width: 650px;
+    height: 100px;
+}
+.footer{
+	width: 100%;
+	height: 350px;
+	background: #333;
+	display: flex;
+	padding: 4% 5%;
+
+}
+
+.footer div{
+	width: 18%;
+	height: 100%;
+	margin: 0 2.5%;
+}
+
+.footer div h4{
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.footer div ul, .footer div p{
+	color: #8A8A8A;
+	text-decoration: none;
+    list-style-type: none;
+    padding: 0px;
+}
+.footer div ul li{
+	margin-bottom: 4%;
+	text-align: justify;
+}
+
+.copyright{
+	width: 100%;
+	height: 60px;
+	background: #222222;
+	text-align: center;
+	padding: 1% 0;
+}
+
+.copyright p{
+	color: #8A8A8A;
+}
